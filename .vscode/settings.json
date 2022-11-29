@@ -1,0 +1,37 @@
+{
+  // 将设置放入此文件中以覆盖默认设置
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "vetur.format.styleInitialIndent": true,
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.validation.script": false,
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "emmet.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "files.associations": {
+    "*.tpl": "html"
+  },
+  "beautify.language": {
+    "js": {
+      "type": [],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": [],
+    "html": ["htm", "html"]
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      // Wrap attributes to new lines. "auto", "force", "force-aligned" or "force-expand-multiline"
+      "wrap_attributes": "force-aligned"
+    }
+  },
+  "eslint.packageManager": "yarn"
+}
